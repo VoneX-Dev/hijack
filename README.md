@@ -1,2 +1,2 @@
-# hijack
+# Hijack
 Hijack AMD / Nvidia Overlay
