@@ -167,7 +167,7 @@ __forceinline void draw_rect(int x, int y, int w, int h, ImColor color, int thic
 __forceinline void draw_rect_filled(int x, int y, int w, int h, ImColor color, int thickness) {
 	ImGui::GetBackgroundDrawList()->AddRectFilled(ImVec2(x, y), ImVec2(x + w, y + h), color, 3.f, 15);
 }
- // example kodetagar
+ // example 
 __forceinline void box_esp(float OffsetW, float OffsetH, int X, int Y, int W, int H, ImU32 Color, int thickness, bool filled, bool outlined) {
 	if (filled) {
 		ImU32 sdfg = ImColor(0, 0, 0, 100);
